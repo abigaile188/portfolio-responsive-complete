@@ -56,16 +56,24 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Abigail</span><br>Coder</h1>
+                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Abigail.</span><br>A Coder,<br>Creative,<br>& Collaborative</h1>
 
-                    <a href="#" class="button">Contact</a>
+                    <a href="https://www.linkedin.com/in/abigail-estrada/overlay/contact-info/" class="button">Contact</a>
+
                 </div>
 
                 <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.linkedin.com/in/abigail-estrada/" class="home__social-icon" target="_blank">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://www.instagram.com/thisisabbyestrada/" class="home__social-icon" target="_blank">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://github.com/abigaile188" class="home__social-icon" target="_blank">
+                        <i class='bx bxl-github'></i>
+                    </a>
                 </div>
+                
 
                 <div class="home__img">
                     <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -90,8 +98,8 @@
                     </div>
                     
                     <div>
-                        <h2 class="about__subtitle">I am Abigail Estrada-Hernandez</h2>
-                        <p class="about__text">A current University of Illinois Urbana-Champaign Junior. If I could describe myself in less than three words, I would be an advocate, artist, and changemaker. My passion for empowering marginalized voices and raising awareness on social issues through marketing, business, and policy has led me to gain over half a decade in the marketing sector, delving into different fields such as startups, technology, education, nonprofits, and business. With my experience in business and marketing, I've developed and promoted products, raised engagement and ratings, and implemented data-driven optimization tactics. I bring a multicultural perspective to my work and fluency in Spanish. My problem-solving, public speaking, and leadership abilities have been developed through these experiences. I'm excited to explore new opportunities and contribute to your team's success by using my skills and passion to make a positive impact at (insert company)!
+                        <h2 class="about__subtitle">Hi! </h2>
+                        <p class="about__text">I am a current University of Illinois Urbana-Champaign Junior. If I could describe myself in less than three words, I would be an advocate, artist, and changemaker. My passion for empowering marginalized voices and raising awareness on social issues through marketing, business, and policy has led me to gain over half a decade in the marketing sector, delving into different fields such as startups, technology, education, nonprofits, and business. With my experience in business and marketing, I've developed and promoted products, raised engagement and ratings, and implemented data-driven optimization tactics. I bring a multicultural perspective to my work and fluency in Spanish. My problem-solving, public speaking, and leadership abilities have been developed through these experiences. I'm excited to explore new opportunities and contribute to your team's success by using my skills and passion to make a positive impact!
                             .</p>           
                     </div>                                   
                 </div>
@@ -173,7 +181,7 @@
                         <img src="assets/img/work2.jpg" alt="">
                     </a>
                     <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
+                        <img src="assets/img/work7.jpg" alt="">
                     </a>
                     <a href="" class="work__img">
                         <img src="assets/img/work4.jpg" alt="">
@@ -190,17 +198,16 @@
             <!--===== CONTACT =====-->
             <section class="Contact Me" id="contact">
                 <h2 class="section-title">Contact</h2>
-
+        
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
+                    <form action="process-form.php" method="post" class="contact__form">
+                        <input type="text" placeholder="Name" name="name" class="contact__input" required>
+                        <input type="email" placeholder="Email" name="email" class="contact__input" required>
+                        <textarea name="message" id="" cols="30" rows="10" class="contact__input" placeholder="Your Message" required></textarea>
+                        <input type="submit" value="Submit" class="contact__button button">
                     </form>
                 </div>
             </section>
-        </main>
 
         <!--===== FOOTER =====-->
         <footer class="footer">
